@@ -1,23 +1,79 @@
 aid: automata
+
 name: Automata
-description: 'Automata is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Automata provides an AI‑ready, software‑defined lab automation platform that orchestrates parallel workflows, delivers real‑time
+  analytics, and integrates genomics, cell biology, and assay screening. Their LINQ suite enables developers to build, run, and monitor complex
+  laboratory processes, accelerating discovery and reducing manual intervention across biotech and life‑science research.
+
 url: https://raw.githubusercontent.com/api-evangelist/automata/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- LabAutomation
+- AI
+- Biotechnology
+- Software
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/automata-llms.txt
+- type: WellKnown
+  url: well-known/automata-well-known.yml
+- type: Hosts
+  url: hosts/automata-hosts.yml
+- type: Vendors
+  url: vendors/automata-vendors.yml
+- type: Leadership
+  url: https://www.automata.tech/about-us/leadership
+- type: Blog
+  url: https://www.automata.tech/blog/drug-discovery
+- type: GettingStarted
+  url: https://docs.automata.tech/getting-started.html
+- type: Documentation
+  url: https://docs.automata.tech/
+- type: DomainSecurity
+  url: security/automata-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/automata
+  url: https://www.automata.tech
+
+apis:
+- name: LINQ API
+  description: The LINQ API provides programmatic access to Automata's lab automation platform, enabling workflow creation, execution, and monitoring.
+  humanURL: https://docs.automata.tech/
+  baseURL: null
+  aid: automata:linq-api
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Documentation is public HTML but provides no OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts.
+  evidence:
+  - url: https://docs.automata.tech/
+    status: 200
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

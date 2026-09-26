@@ -1,0 +1,25 @@
+# Automata
+
+Append `.md` to the jobs list or any individual job URL for a markdown version (for example https://careers.automata.tech/jobs.md).
+
+## Open positions
+
+- [All open positions](https://careers.automata.tech/jobs): Browse every currently open job. Also available as markdown at https://careers.automata.tech/jobs.md and as a JSON Feed with embedded JobPosting data at https://careers.automata.tech/jobs.json.
+- [Manager, Customer Success](https://careers.automata.tech/jobs/8312639-manager-customer-success): Customer Experience · Boston · Hybrid · Full-time
+- [Mechanical Engineer (Contractor)](https://careers.automata.tech/jobs/8389287-mechanical-engineer-contractor): PreSales · London · Hybrid · Contract
+- [Staff Software Engineer (Core Systems)](https://careers.automata.tech/jobs/8131962-staff-software-engineer-core-systems): Product & Design · London · Hybrid · Full-time
+- [Staff Software Engineer (User Experiences)](https://careers.automata.tech/jobs/8131933-staff-software-engineer-user-experiences): Product & Design · London · Hybrid · Full-time
+- [Principal Product Engineer (Software)](https://careers.automata.tech/jobs/8129889-principal-product-engineer-software): Product & Design · London · Hybrid · Full-time
+
+## Key pages
+
+- [Perks & benefits](https://careers.automata.tech/pages/perks-and-benefits)
+
+## Optional
+
+- [People](https://careers.automata.tech/people): The team behind Automata.
+- [Posts](https://careers.automata.tech/posts): Posts and updates from Automata.
+- [Privacy policy](https://careers.automata.tech/privacy-policy): How candidate data is handled.
+- [Cookie policy](https://careers.automata.tech/cookie-policy): Cookie usage and consent.
+- [Data privacy](https://careers.automata.tech/data-privacy): Data privacy controls and rights.
+- [API catalog](https://careers.automata.tech/.well-known/api-catalog): Machine-readable discovery document for available APIs.
