@@ -21,7 +21,16 @@ created: '2026-09-26'
 
 modified: '2026-09-26'
 
+x-docs-platform: sphinx
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
+- Company
+- Lab Automation
+- Artificial Intelligence
+- Biotechnology
+- Software
+tags_raw:
 - Company
 - LabAutomation
 - AI
